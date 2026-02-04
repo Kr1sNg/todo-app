@@ -1,26 +1,26 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 
 const taskSchema = new mongoose.Schema(
-	{
-		title: {
-			type: String,
-			required: true,
-			trim: true,
-		},
-		status: {
-			type: String,
-			enum: ["active", "complete"],
-			default: "active",
-		},
-		completeAt: {
-			type: Date,
-			default: null,
-		},
-	},
-	{
-		timestamps: true, // Mongo will automatically update createAt and updateAt 
-	}
+  {
+    title: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+    status: {
+      type: String,
+      enum: ['active', 'complete'],
+      default: 'active',
+    },
+    completedAt: {
+      type: Date,
+      default: null,
+    },
+  },
+  {
+    timestamps: true, // Mongo will automatically update createdAt and updatedAt
+  }
 );
 
-const Task = mongoose.model("Task", taskSchema);
+const Task = mongoose.model('Task', taskSchema);
 export default Task;
