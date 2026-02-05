@@ -30,7 +30,7 @@ const Footer = ({ completedTasksCount = 0, activeTasksCount = 0 }) => {
       )}
       <p className='flex justify-center items-center gap-1 text-xs text-muted-foreground'>
         <Copyright className='size-3' />
-        <a href='https://github.com/Kr1sNg/todo-app' target="_blank">tat-nguy</a>
+        <a href='https://github.com/Kr1sNg/todo-app' target="_blank">Kr1sNg 2026</a>
       </p>
 
     </>
