@@ -32,3 +32,4 @@ fullstack ToDo app
 ## Connect front and back (only in dev with localhost)
 
 - error CORS (Cross-origin resource sharing) because Chrome doesn't allow front and back in 2 different domains => use `cors` middleware for backend
+- or add proxy to vite.config.js
