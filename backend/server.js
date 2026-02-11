@@ -1,13 +1,13 @@
 import express from 'express';
-import taskRoute from './routes/taskRouters.js';
-import { connectDB } from './config/db.js';
+import taskRoute from './src/routes/taskRouters.js';
+import { connectDB } from './src/config/db.js';
 import dotenv from 'dotenv';
-import { unknownEndpoint } from './config/middleware.js';
+import { unknownEndpoint, distPath } from './src/config/middleware.js';
 
 dotenv.config();
 
 const app = express();
-app.use(express.static('dist'));
+app.use(express.static(distPath));
 
 // middleware
 app.use(express.json());

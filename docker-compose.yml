@@ -1,0 +1,17 @@
+# run local
+services:
+  backend:
+    build: .
+    image: app:2.0
+    container_name: app
+    ports:
+      - "3003:3003"
+    env_file:
+      - ./backend/.env
+    networks:
+      - todo-net
+
+networks:
+  todo-net:
+    driver: bridge
+    name: todo-net

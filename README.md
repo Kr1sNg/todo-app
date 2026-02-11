@@ -18,13 +18,14 @@ fullstack ToDo app
 - vite
 - react
 
+- shadcn (lib of React components styled in tailwindcss): need to use jsconfig.json instead of tsconfig
+
 - react-router
 - sonner (for Toaster pop-up notification)
 - axios	(lib API send-receive): easier to call, auto post json and set header
 - lucide-react (icon)
 
 - tailwindcss
-- shadcn (lib of tailwindcss ui components): need to use jsconfig.json instead of tsconfig
 
 - background: https://patterncraft.fun/
 
