@@ -134,7 +134,7 @@ todo-app
 ---
 ## ⚙️ Local installation
 
-If you don't want to run backend / frontend separately, use Docker (see 🐳 [Docker integration](#docker-integration) chapter) 
+If you don't want to run backend / frontend separately, use Docker (see 🐳 [Docker integration](#-docker-integration) chapter) 
 
 ### 0. Requirement
 - Linux / MacOs
