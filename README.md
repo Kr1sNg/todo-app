@@ -79,8 +79,7 @@ todo-app
 │   ├── eslint.config.mjs
 │   ├── package-lock.json
 │   ├── package.json
-│   ├── server.js
-│   └── test.rest
+│   └── server.js
 ├── frontend
 │   ├── public
 │   │   ├── 404_NotFound.png
@@ -135,7 +134,7 @@ todo-app
 ---
 ## ⚙️ Local installation
 
-If you don't want to run backend / frontend separately, use Docker (see [🐳 Docker integration]() chapter) 
+If you don't want to run backend / frontend separately, use Docker (see 🐳 [Docker integration](#docker-integration) chapter) 
 
 ### 0. Requirement
 - Linux / MacOs
